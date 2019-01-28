@@ -1,0 +1,11 @@
+yum -y install ntp
+
+vim /etc/ntp.conf
+server 0.hr.pool.ntp.org iburst
+server 2.europe.pool.ntp.org iburst
+server 1.europe.pool.ntp.org iburst
+
+firewall-cmd --add-service=ntp --permanent; firewall-cmd --reload
+systemctl enable ntpd; systemctl restart ntpd
+
+ntpq -p; date -R
