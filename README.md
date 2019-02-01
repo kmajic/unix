@@ -4,4 +4,4 @@ Just some common aliases and repositories I use. To add the aliases, execute thi
 
 curl https://raw.githubusercontent.com/kmajic/unix/master/bash >> /etc/profile; source /etc/profile
 
-echo "colorscheme torte" >> /etc/vimrc; source /etc/vimrc
+echo "colorscheme torte" >> /etc/vimrc
