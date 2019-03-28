@@ -4,4 +4,4 @@ Just some common aliases and repositories I use. To add the aliases, execute thi
 
 curl https://raw.githubusercontent.com/kmajic/unix/master/bash >> /etc/profile; source /etc/profile
 
-curl https://raw.githubusercontent.com/kmajic/unix/master/vim >> /etc/vimrc; source /etc/vimrc
+curl https://raw.githubusercontent.com/kmajic/unix/master/vim >> /etc/vimrc
