@@ -1,2 +1,3 @@
 yum install -y \
-epel-release vim wget lsof pinfo sysstat screen mlocate traceroute telnet iputils net-tools bind-utils yum-utils bash-completion git whois
+epel-release vim wget lsof pinfo sysstat screen mlocate traceroute telnet iputils net-tools bind-utils yum-utils \
+bash-completion git whois unzip
