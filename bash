@@ -1,4 +1,4 @@
-alias ll='ls -lhA --color=always'
+alias ll='ls -lh --color=always'
 alias cc='cd ~; clear; pwd'
 echo -e "\nWelcome, $(whoami)!"; sleep 1
 echo -e "$(date -R) \n"
