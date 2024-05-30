@@ -6,3 +6,6 @@ echo -e "$(date -R) \n"
 grep ^alias /etc/bashrc
 echo ""
 export HISTTIMEFORMAT=" %d/%m/%y %T  "  ## this adds timestamps to HISTORY; extra spaces at the end to make it more readable
+export HISTSIZE=20000
+export HISTFILESIZE=20000
+export PROMPT_COMMAND='history -a; echo'
